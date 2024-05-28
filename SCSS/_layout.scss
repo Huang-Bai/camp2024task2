@@ -1,0 +1,19 @@
+.header {
+  border-bottom: 1px solid $primary200;
+  .header-logo {
+    transform: translate(0, -10%);
+  }
+}
+.menu {
+  width: 100%;
+  margin: 32px 0;
+  li {
+    margin: 0 20px;
+  }
+  a {
+    display: block;
+    text-decoration: none;
+    padding: 4px 8px;
+    color: #000;
+  }
+}

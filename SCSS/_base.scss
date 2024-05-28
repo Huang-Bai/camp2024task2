@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap");
+
+//通用
+body {
+  line-height: 1.5;
+  font-family: "Noto Sans TC", sans-serif;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+img {
+  display: block;
+}
+//文字
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+}
+h1 {
+  font-size: 2.5rem;
+  width: 700;
+}
+h2 {
+  font-size: 2rem;
+  width: 700;
+}
+h3 {
+  font-size: 1.75rem;
+  width: 700;
+}
+h4 {
+  font-size: 1.5rem;
+  width: 700;
+}
+h5 {
+  font-size: 1.25rem;
+  width: 700;
+}
+.f-w400 {
+  width: 400;
+}
+.f-ls-12 {
+  letter-spacing: 12%;
+}
+.fs-2 {
+  font-size: 2rem;
+  width: 700;
+}
+.fs-3 {
+  font-size: 1.75rem;
+  width: 700;
+}
+.fs-4 {
+  font-size: 1.5rem;
+}
+.fs-5 {
+  font-size: 1.25rem;
+  width: 700;
+}
+.fs-6 {
+  font-size: 2rem;
+  width: 700;
+}
+.number-lg {
+  font-size: 4.5rem;
+  line-height: 1.2;
+  font-family: "Tourney", sans-serif;
+}
+.number-sm {
+  font-size: 3rem;
+  line-height: 1.2;
+  font-family: "Tourney", sans-serif;
+}
+
+//容器
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+//定位
+.pos-r {
+  position: relative;
+}
+.pos-a {
+  position: absolute;
+}
+.pos-center {
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+}
+//flex
+.d-flex {
+  display: flex;
+}
+.f-jcc {
+  justify-content: center;
+}
+.f-aic {
+  align-items: center;
+}
