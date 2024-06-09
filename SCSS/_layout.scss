@@ -154,12 +154,10 @@
   border-bottom: 2px solid #c1c1c1;
 }
 .works {
-  max-width: 1296px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   row-gap: 80px;
-  margin: 0 auto;
   margin-bottom: 72px;
   @include pad {
     flex-direction: column;
