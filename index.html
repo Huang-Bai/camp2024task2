@@ -3,10 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Noel 作品網站</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
     <link rel="stylesheet" href="SCSS/all.css" />
   </head>
   <body>
+    <!--header-->
     <div class="header">
       <div class="container flex pos-r">
         <img
@@ -15,13 +26,231 @@
           alt="Noel-logo"
         />
         <ul class="menu d-flex f-jcc f-aic">
-          <li><a href="">首頁</a></li>
-          <li><a href="">作品集</a></li>
-          <li><a href="">服務項目</a></li>
-          <li><a href="">部落格</a></li>
-          <li><a href="">聯絡我</a></li>
+          <li><a href="/">首頁</a></li>
+          <li><a href="/">作品集</a></li>
+          <li><a href="/">服務項目</a></li>
+          <li><a href="/">部落格</a></li>
+          <li><a href="/">聯絡我</a></li>
         </ul>
+        <button type="button" class="navbar-btn">
+          <span class="material-symbols-outlined hamburger-icon"> menu </span>
+          <span class="material-symbols-outlined closure close"> close </span>
+        </button>
       </div>
     </div>
+    <!--banner-->
+    <div class="banner primary-100-bg d-flex f-fxd-c f-aic mb-lg">
+      <div class="banner-title p-relative">
+        <img
+          class="banner-quote-left primary-300 p-absolute p-t0l0"
+          src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/quote-left.png?raw=true"
+          alt="quote-left"
+        />
+        <h4>
+          <span>讓使用者在觀賞與使用的旅程中，</span>
+          <span class="p-relative"
+            >發現設計的價值
+            <img
+              class="p-absolute"
+              src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/mark.png?raw=true"
+              alt="mark line"
+            />
+          </span>
+        </h4>
+        <h4>
+          <span>而我在設計與開發的過程中，</span>
+          <span class="p-relative"
+            >看見自己的價值
+            <img
+              class="p-absolute"
+              src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/mark.png?raw=true"
+              alt="mark line"
+            />
+          </span>
+        </h4>
+        <img
+          class="banner-quote-right primary-300 p-absolute p-b0r0"
+          src="https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/quote-right.png?raw=true"
+          alt="quote-right"
+        />
+      </div>
+      <ul class="banner-info d-flex">
+        <li class="d-flex f-fxd-c f-aic">
+          <p class="primary-600 subtitle">2B經驗</p>
+          <div class="mark-line"></div>
+          <p class="primary-600">
+            內部監控系統、庫存系統、採購系統、行銷整合系統
+          </p>
+        </li>
+        <li class="d-flex f-fxd-c f-aic">
+          <p class="primary-600 subtitle">2C經驗</p>
+          <div class="mark-line"></div>
+          <p class="primary-600">
+            跨國美妝保養電商、個人品牌網站、醫美網站、電子商務
+          </p>
+        </li>
+      </ul>
+    </div>
+    <!--work-->
+    <div class="works">
+      <div class="work-item">
+        <img
+          class="mb-3"
+          src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2024%20web-camp/work-image1.png"
+          alt="星際旅行訂票平台"
+        />
+        <div class="work-info">
+          <h2 class="fs-3 primary-700 mb-2">星際旅行訂票平台</h2>
+          <p class="primary-500 mb-4">悠遊宇宙的夢想，從這裡開始實現</p>
+          <ul class="tags">
+            <li class="primary-700 ms-3 primary-200-bg">網頁設計</li>
+            <li class="primary-700 ms-3 primary-200-bg">響應式設計</li>
+            <li class="primary-700 ms-3 primary-200-bg">Bootstrap</li>
+          </ul>
+        </div>
+      </div>
+      <div class="work-item">
+        <img
+          class="mb-3"
+          src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2024%20web-camp/work-image2.png"
+          alt="理財App"
+        />
+        <div class="work-info">
+          <h2 class="fs-3 primary-700 mb-2">理財App</h2>
+          <p class="primary-500 mb-4">
+            連動帳戶與行動支付，讓 AI 提供您最好的理財建議
+          </p>
+          <ul class="tags">
+            <li class="primary-700 ms-3 primary-200-bg">APP設計</li>
+            <li class="primary-700 ms-3 primary-200-bg">iOS</li>
+            <li class="primary-700 ms-3 primary-200-bg">React</li>
+          </ul>
+        </div>
+      </div>
+      <div class="work-item">
+        <img
+          class="mb-3"
+          src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2024%20web-camp/work-image3.png"
+          alt="醫美診所官網"
+        />
+        <div class="work-info">
+          <h2 class="fs-3 primary-700 mb-2">醫美診所官網</h2>
+          <p class="primary-500 mb-4">永保青春的秘密，從粹究開始</p>
+          <ul class="tags">
+            <li class="primary-700 ms-3 primary-200-bg">網頁設計</li>
+            <li class="primary-700 ms-3 primary-200-bg">響應式設計</li>
+            <li class="primary-700 ms-3 primary-200-bg">WordPress</li>
+          </ul>
+        </div>
+      </div>
+      <div class="work-item">
+        <img
+          class="mb-3"
+          src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2024%20web-camp/work-image4.png"
+          alt="美美美早餐店 POS 機 UI Design"
+        />
+        <div class="work-info">
+          <h2 class="fs-3 primary-700 mb-2">美美美早餐店 POS 機 UI Design</h2>
+          <p class="primary-500 mb-4">訂單送單一目瞭然，自動報表分析好輕鬆</p>
+          <ul class="tags">
+            <li class="primary-700 ms-3 primary-200-bg">UI 設計</li>
+            <li class="primary-700 ms-3 primary-200-bg">前端開發</li>
+            <li class="primary-700 ms-3 primary-200-bg">Wix</li>
+          </ul>
+        </div>
+      </div>
+      <div class="work-item">
+        <img
+          class="mb-3"
+          src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2024%20web-camp/work-image5.png"
+          alt="電影院訂票系統"
+        />
+        <div class="work-info">
+          <h2 class="fs-3 primary-700 mb-2">電影院訂票系統</h2>
+          <p class="primary-500 mb-4">三步驟完成訂票，電腦手機都支援</p>
+          <ul class="tags">
+            <li class="primary-700 ms-3 primary-200-bg">前端開發</li>
+            <li class="primary-700 ms-3 primary-200-bg">後端支援</li>
+            <li class="primary-700 ms-3 primary-200-bg">Vue</li>
+          </ul>
+        </div>
+      </div>
+      <div class="work-item">
+        <img
+          class="mb-3"
+          src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2024%20web-camp/work-image6.png"
+          alt="巧克巧克形象官網設計"
+        />
+        <div class="work-info">
+          <h2 class="fs-3 primary-700 mb-2">巧克巧克形象官網設計</h2>
+          <p class="primary-500 mb-4">三步驟完成訂票，電腦手機都支援</p>
+          <ul class="tags">
+            <li class="primary-700 ms-3 primary-200-bg">UI設計</li>
+            <li class="primary-700 ms-3 primary-200-bg">設計系統</li>
+            <li class="primary-700 ms-3 primary-200-bg">網路電商</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="works-page mb-lg">
+      <ul class="d-flex f-jcc">
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+      </ul>
+    </div>
+    <!--footer-->
+    <div class="footer">
+      <div class="fs-5 d-flex f-aic f-jcsb container">
+        <div class="footer-info">
+          <img
+            class="mb-4"
+            src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/logo.svg"
+            alt="noel-logo"
+          />
+          <p class="primary-700">若有數位產品設計和開發相關問題</p>
+          <p class="primary-700 mb-4">歡迎填寫表單，或直接與我聯絡！</p>
+          <address>
+            <a class="primary-500" href="mailto:service@hexschool.com"
+              >service@hexschool.com</a
+            >
+          </address>
+        </div>
+        <div class="footer-contact">
+          <ul>
+            <li class="mb-4">
+              <a href="#" class="d-flex f-aic">
+                <img
+                  src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/list.svg"
+                  alt="list"
+                />
+                <p>填寫表單</p>
+              </a>
+            </li>
+            <li class="mb-4">
+              <a href="#" class="d-flex f-aic">
+                <img
+                  src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/instagram.svg"
+                  alt="instagram"
+                />
+                <p>hexschool_demo</p>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="d-flex f-aic">
+                <img
+                  src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/facebook.svg"
+                  alt="facebook"
+                />
+                <p>hexschoolTW</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="/all.js"></script>
   </body>
 </html>
